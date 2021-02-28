@@ -1,62 +1,109 @@
+body{
+background-image: url("../bilder/bak.jpg");
+
+background-size: cover;
+}
+
+h1{
+  color:white;
+  font-family:sans-serif;
+}
+h2{
+  color:#8ae8ed;
+  font-family:serif;
+}
+h3{
+color:white;
+font-family:monospace;
+}
 #wrapper{
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin-left:auto;
+  margin-right:auto;
 }
 
 header{
-
-height: 100px;
+height: 70px;
 width: 100%;
-background-color:#3283a8;
+text-align: center;
+/color:#46434d;
+  /outline-width:thick;
+  /outline-style:dotted;
+  /outline-color: Black;
+    /background-color:#515557;
+    /width: 100%;
+    /border: 0px solid gray;
+    /padding: 0px;
+    /margin: 0px;
 }
 
 nav{
+  word-spacing: 30px;
   height: 50px;
   width: 100%;
-  background-color:#324ca8;
-}
+text-align: center;
+color:#46434d;
+  outline-width:thick;
+  outline-style:double;
+  outline-color: white;
+    /background-color:#dde9ed;
+    /width: 700px;
+    /border: 0px solid gray;
+    padding: 1px 0px 11px 0px;
+    /margin: 0px;
 
+}
 main{
 height: 400px;
-width:  65%;
-background-color:#32a852;
+width:  60%;
+text-align: center;
+  background-color:;
+  /width: 65%;
+  border: 0px solid gray;
+  padding:100px;
+  margin: 0px;
+
 }
 
 aside{
   height: 400px;
-  width: 35%;
-  background-color:#8fa832;
+  width: 40%;
+padding:50px;
+
 }
 
 footer{
   height: 50px;
   width: 100%;
-  background-color:#32a894;
+
+
 }
 
 #container{
 display:flex;
-
 }
-/* unvisited link */
+
 a:link {
-  color: red;
-  text-decoration: none;
+  color: #8ae8ed;
+  text-decoration:none;
+  font-size: 25px;
+  font-family:monospace;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: #8ae8ed;
+  text-decoration:none;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: white;
+  text-decoration:none;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color:#19dbe6;
+  text-decoration:none;
 }
