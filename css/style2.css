@@ -1,0 +1,66 @@
+body{
+background-image: url("../bilder/bakgrund.jpg");
+
+background-size: cover;
+}
+
+h1{
+  color:white;
+  font-family:sans-serif;
+}
+h2{
+  color:#8ae8ed;
+  font-family:serif;
+}
+h3{
+color:white;
+font-family:monospace;
+}
+#wrapper{
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header{
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+
+nav{
+  word-spacing: 30px;
+  height: 50px;
+  width: 100%;
+text-align: center;
+}
+
+#container{
+display:flex;
+}
+
+a:link {
+  color: #9e16c4;
+  text-decoration:none;
+  font-size: 25px;
+  font-family:monospace;
+}
+
+/* visited link */
+a:visited {
+  color: #9e16c4;
+  text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c416be;
+  text-decoration:none;
+}
+
+/* selected link */
+a:active {
+  color: white;
+  text-decoration:none;
+}
