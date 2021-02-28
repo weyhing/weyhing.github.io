@@ -16,6 +16,7 @@ h3{
 color:white;
 font-family:monospace;
 }
+
 #wrapper{
   width: 100%;
   margin-left:auto;
@@ -58,7 +59,6 @@ height: 400px;
 width:  60%;
 text-align: center;
   background-color:;
-  /width: 65%;
   border: 0px solid gray;
   padding:100px;
   margin: 0px;

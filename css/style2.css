@@ -9,7 +9,7 @@ h1{
   font-family:sans-serif;
 }
 h2{
-  color:#8ae8ed;
+  color:#346bbf;
   font-family:serif;
 }
 h3{
@@ -26,41 +26,56 @@ header{
   height: 70px;
   width: 100%;
   text-align: center;
+  outline-width:thick;
+  outline-style:solid;
+  outline-color: white;
+  width: 100%;
+  border: 0px solid gray;
+  padding: 0px;
+  margin: 0px;
 }
 
 
 nav{
-  word-spacing: 30px;
+  word-spacing: 0px;
   height: 50px;
   width: 100%;
 text-align: center;
 }
 
+main{
+height: 400px;
+width:  100%;
+text-align: center;
+  background-color:;
+  border: 0px solid gray;
+  padding:100px;
+  margin: 0px;
+
+}
+
+aside{
+  height: 400px;
+  width: 0%;
+padding:50px;
+
+}
+
+
+
 #container{
 display:flex;
 }
 
-a:link {
-  color: #9e16c4;
-  text-decoration:none;
-  font-size: 25px;
-  font-family:monospace;
-}
-
-/* visited link */
-a:visited {
-  color: #9e16c4;
-  text-decoration:none;
-}
-
-/* mouse over link */
-a:hover {
-  color: #c416be;
-  text-decoration:none;
-}
-
-/* selected link */
-a:active {
+a:link, a:visited {
+  background-color: #47b5d6;
   color: white;
-  text-decoration:none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: lightblue;
 }
